@@ -16,8 +16,7 @@ MonoBehaviour:
   _level: 4
   _icon: {fileID: 0}
   _damage: 5
-  _availableMovementRadius: 1
-  _canCaptureTerritories: 0
   _price: -1
-  _payment: -1
+  _economyAffection: -1
+  _availableMovementRadius: 1
   _attackRadius: 5

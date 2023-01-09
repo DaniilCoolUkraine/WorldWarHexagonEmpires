@@ -16,8 +16,8 @@ MonoBehaviour:
   _level: 1
   _icon: {fileID: 0}
   _damage: 0
-  _availableMovementRadius: 6
-  _canCaptureTerritories: 1
   _price: -1
-  _payment: -1
+  _economyAffection: -1
+  _availableMovementRadius: 6
   _health: 2
+  _highestDangerousLevel: 0

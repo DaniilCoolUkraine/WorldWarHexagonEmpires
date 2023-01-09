@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2ff59ee72e41a7b41a9ddeb1872cf195
+guid: 2c6611b8a6c03af428d1491a0d88c1a8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 390
+  spritePixelsToUnits: 399
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -108,9 +108,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 684
+        y: 708
         width: 400
-        height: 340
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,8 +118,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad688dbbc5879de44ba92c25ed749cb3
-      internalID: 96440196
+      spriteID: f2564afc20b34e4409fff34a9a73d111
+      internalID: -411315856
       vertices: []
       indices: 
       edges: []
@@ -128,10 +128,10 @@ TextureImporter:
       name: PlayerHexagons_1
       rect:
         serializedVersion: 2
-        x: 402
-        y: 684
+        x: 404
+        y: 708
         width: 400
-        height: 340
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -139,8 +139,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65a6f4b1a751f534b864664b948f9836
-      internalID: 1828967962
+      spriteID: e2725b0f19db4ff48af8c189860852bc
+      internalID: 1980389247
       vertices: []
       indices: 
       edges: []
@@ -150,9 +150,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 342
+        y: 356
         width: 400
-        height: 340
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -160,8 +160,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d39b90193de06e44faf9e930e7e86637
-      internalID: 752587639
+      spriteID: 11daffd74cba41046aeace56580b0e60
+      internalID: 1166405506
       vertices: []
       indices: 
       edges: []
@@ -170,10 +170,10 @@ TextureImporter:
       name: PlayerHexagons_3
       rect:
         serializedVersion: 2
-        x: 402
-        y: 342
+        x: 404
+        y: 356
         width: 400
-        height: 340
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -181,8 +181,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9fe7857a6565b704284d26ed8f3f3e08
-      internalID: -879127127
+      spriteID: 7cef3494803537144be8f4366f1af9d0
+      internalID: -783899631
       vertices: []
       indices: 
       edges: []
@@ -191,10 +191,10 @@ TextureImporter:
       name: PlayerHexagons_4
       rect:
         serializedVersion: 2
-        x: 3
-        y: 4
-        width: 394
-        height: 332
+        x: 1
+        y: 1
+        width: 398
+        height: 346
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,8 +202,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 024f59e84b89d7a4285eb1296d93c9c3
-      internalID: -1340202728
+      spriteID: 9337df4ad15be0d4d8ca8feeaa89b49c
+      internalID: -928473157
       vertices: []
       indices: 
       edges: []
@@ -212,10 +212,10 @@ TextureImporter:
       name: PlayerHexagons_5
       rect:
         serializedVersion: 2
-        x: 402
+        x: 404
         y: 0
         width: 400
-        height: 340
+        height: 348
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -223,8 +223,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 62d7a1fda566b9541874222a8dc9d8c8
-      internalID: 2011995705
+      spriteID: a4d9c0f2c7d0d41489931b6585d95222
+      internalID: 1652585598
       vertices: []
       indices: 
       edges: []
@@ -240,12 +240,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      PlayerHexagons_1: 1828967962
-      PlayerHexagons_0: 96440196
-      PlayerHexagons_4: -1340202728
-      PlayerHexagons_2: 752587639
-      PlayerHexagons_3: -879127127
-      PlayerHexagons_5: 2011995705
+      PlayerHexagons_1: 1980389247
+      PlayerHexagons_0: -411315856
+      PlayerHexagons_4: -928473157
+      PlayerHexagons_2: 1166405506
+      PlayerHexagons_3: -783899631
+      PlayerHexagons_5: 1652585598
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
