@@ -1,10 +1,8 @@
-﻿using System;
-using HexagonWar.ScriptableObjects;
+﻿using HexagonWar.ScriptableObjects;
 using UnityEngine;
 
-namespace HexagonWar
+namespace HexagonWar.Item
 {
-
     public class Unit : MonoBehaviour
     {
         private UnitData _unitData;
@@ -12,6 +10,9 @@ namespace HexagonWar
         public void SetUnitData(UnitLevelDataSO unitLevelData)
         {
             _unitData = new UnitData(unitLevelData);
+            
+            //TODO make it different func
+            GetComponent<SpriteRenderer>().sprite = _unitData.Sprite;
         }
 
         public void TakeDamage(int damage)
@@ -20,6 +21,5 @@ namespace HexagonWar
         }
 
         public int GetHealth() => _unitData.Health;
-
     }
 }

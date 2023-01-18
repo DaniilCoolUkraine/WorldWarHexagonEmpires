@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _name: UpdatedKnight
   _level: 4
-  _icon: {fileID: 0}
-  _damage: 4
+  _icon: {fileID: 21300000, guid: fef65479f9c84064ca79fb68c1bcfc65, type: 3}
   _price: -1
   _economyAffection: -1
   _availableMovementRadius: 3
+  _damage: 4
   _health: 5
   _highestDangerousLevel: 4

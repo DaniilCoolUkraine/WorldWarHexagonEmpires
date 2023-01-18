@@ -8,7 +8,8 @@ namespace HexagonWar.ScriptableObjects
         [SerializeField] protected int _level;
         [SerializeField] protected Sprite _icon;
 
-        [Space(10)] [SerializeField] protected int _price;
+        [Space(10)] 
+        [SerializeField] protected int _price;
         [SerializeField] protected int _economyAffection;
 
         public string Name => _name;
