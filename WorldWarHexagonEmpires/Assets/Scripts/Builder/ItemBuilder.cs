@@ -9,7 +9,7 @@ namespace HexagonWar.Builder
 
         protected virtual string Path { get; set; }
         //protected array of items level data to store its data. loads once from ItemsData folder on game start
-        protected LevelDataSO[] ItemLevelData;
+        protected ItemLevelDataSO[] ItemLevelData;
 
         protected abstract void LoadData();
 

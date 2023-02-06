@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace HexagonWar.ScriptableObjects
 {
-    public class LevelDataSO : ScriptableObject
+    public class ItemLevelDataSO : ScriptableObject
     {
         [SerializeField] protected string _name;
         [SerializeField] protected int _level;

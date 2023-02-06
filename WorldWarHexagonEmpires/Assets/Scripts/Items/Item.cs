@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace HexagonWar.Item
+namespace HexagonWar.Items
 {
     public abstract class Item : MonoBehaviour
     {

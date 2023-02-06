@@ -1,25 +1,29 @@
-﻿using HexagonWar.ScriptableObjects;
+﻿using HexagonWar.Items.Data;
+using HexagonWar.ScriptableObjects;
 using UnityEngine;
 
-namespace HexagonWar.Item
+namespace HexagonWar.Items
 {
-    public class Unit : MonoBehaviour
+    public class Unit : Item
     {
         private UnitData _unitData;
 
         public void SetUnitData(UnitLevelDataSO unitLevelData)
         {
             _unitData = new UnitData(unitLevelData);
-            
-            //TODO make it different func
+
             GetComponent<SpriteRenderer>().sprite = _unitData.Sprite;
         }
 
         public void TakeDamage(int damage)
         {
             _unitData.TakeDamage(damage);
+            
+            if (_unitData.Health<=0)
+            {
+                Destroy(gameObject);
+            }
         }
-
-        public int GetHealth() => _unitData.Health;
+        
     }
 }

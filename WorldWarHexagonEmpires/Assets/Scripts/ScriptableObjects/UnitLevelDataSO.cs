@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace HexagonWar.ScriptableObjects
 {
-    public class UnitLevelDataSO : LevelDataSO
+    public class UnitLevelDataSO : ItemLevelDataSO
     {
         [Space(10)]
         [SerializeField] protected int _availableMovementRadius;

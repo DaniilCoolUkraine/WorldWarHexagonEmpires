@@ -2,7 +2,7 @@
 using UnityEngine;
 
 using HexagonWar.ScriptableObjects;
-using Unit = HexagonWar.Item.Unit;
+using Unit = HexagonWar.Items.Unit;
 
 namespace HexagonWar
 {
@@ -16,7 +16,7 @@ namespace HexagonWar
             {
                 var unit = new GameObject("Unit");
 
-                unit.AddComponent<Item.Unit>();
+                unit.AddComponent<Unit>();
                 unit.AddComponent<SpriteRenderer>();
                 
                 unit.GetComponent<Unit>().SetUnitData(DataSO[i]);

@@ -1,4 +1,4 @@
-﻿using HexagonWar.Item;
+﻿using HexagonWar.Items;
 using HexagonWar.ScriptableObjects;
 using UnityEngine;
 
@@ -22,7 +22,7 @@ namespace HexagonWar.Builder
             Item.AddComponent<Unit>();
             Item.AddComponent<SpriteRenderer>();
 
-            foreach (LevelDataSO levelDataSo in ItemLevelData)
+            foreach (ItemLevelDataSO levelDataSo in ItemLevelData)
             {
                 var levelData = (MeleeUnitLevelDataSO) levelDataSo;
                 if (levelData.Level == level)
